@@ -1,0 +1,39 @@
+.register-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register-div form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.register-div  input{
+    width: 100%;
+    height: 3rem;
+    /* border: 1px solid #e5e5e5; */
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.register-div button{
+    width: auto;
+    height: 3rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
